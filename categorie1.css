@@ -1,10 +1,14 @@
-
 .dropbtn1 {
-    background-color: #04AA6D;
+    background-color: #3498DB;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn1:hover, .dropbtn:focus {
+    background-color: #2980B9;
   }
   
   .dropdown1 {
@@ -15,8 +19,9 @@
   .dropdown-content1 {
     display: none;
     position: absolute;
-    background-color: #fafcfb;
+    background-color: #9e2626;
     min-width: 160px;
+    overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -28,19 +33,22 @@
     display: block;
   }
   
-  .dropdown-content1 a:hover {background-color: rgb(196, 40, 207);}
+  .dropdown1 a:hover {background-color: #ddd;}
   
-  .dropdown1:hover .dropdown-content1 {display: block;}
-  
-  .dropdown1:hover .dropbtn1 {background-color: #3e8e41;}
+  .show1 {display: block;}
 
 
   .dropbtn2 {
-    background-color: #04AA6D;
+    background-color: #3498DB;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn2:hover, .dropbtn:focus {
+    background-color: #2980B9;
   }
   
   .dropdown2 {
@@ -51,8 +59,9 @@
   .dropdown-content2 {
     display: none;
     position: absolute;
-    background-color: #fafcfb;
+    background-color: #f1f1f1;
     min-width: 160px;
+    overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -64,19 +73,23 @@
     display: block;
   }
   
-  .dropdown-content2 a:hover {background-color: rgb(196, 40, 207);}
+  .dropdown2 a:hover {background-color: #ddd;}
   
-  .dropdown2:hover .dropdown-content2 {display: block;}
-  
-  .dropdown2:hover .dropbtn2 {background-color: #3e8e41;}
+  .show {display: block;}
+
 
 
   .dropbtn3 {
-    background-color: #04AA6D;
+    background-color: #3498DB;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn3:hover, .dropbtn:focus {
+    background-color: #2980B9;
   }
   
   .dropdown3 {
@@ -87,8 +100,9 @@
   .dropdown-content3 {
     display: none;
     position: absolute;
-    background-color: #fafcfb;
+    background-color: #f1f1f1;
     min-width: 160px;
+    overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -100,8 +114,6 @@
     display: block;
   }
   
-  .dropdown-content3 a:hover {background-color: rgb(196, 40, 207);}
+  .dropdown3 a:hover {background-color: #ddd;}
   
-  .dropdown3:hover .dropdown-content3 {display: block;}
-  
-  .dropdown3:hover .dropbtn3 {background-color: #3e8e41;}
+  .show {display: block;}
