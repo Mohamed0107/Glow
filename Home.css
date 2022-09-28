@@ -11,10 +11,79 @@
 }
 
 .header {
-    padding: 30px;
-    text-align: center;
-    background-color: black;
-    font-size: 35px;
-    color: rgb(255, 255, 255);
-    border-radius: 25px 25px 0px 0px;
+  padding: 30px;
+  text-align: center;
+  background-color: black;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  border-radius: 25px 25px 0px 0px;
+}
+
+.column_left {   
+  float: left;
+  width: 62%;
+  padding: 20px;
+}
+
+.column_right {   
+  float: left;
+  width: 32%;
+  padding: 20px;
+}
+
+.row{
+  background-color: rgb(113, 29, 29);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: rgb(0, 0, 0);
+  border-radius: 0px 0px 25px 25px;
+  color: rgb(255, 255, 255);
+  height: 100px;
+}
+
+#footer-content {
+  height: 70px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
   }
+}
+
+.card_picture {
+  background-color: rgb(201, 93, 93);
+  padding: 20px;
+  margin-top: 20px;
+  display: grid;
+}
+
+.card_text {
+  background-color: rgb(146, 67, 67);
+  padding: 20px;
+  margin-top: 20px;
+  display: grid;
+}
+
+.card_right {
+  background-color: rgb(146, 67, 67);
+  padding: 20px;
+  margin-top: 20px;
+  display: grid;
+}
+
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
