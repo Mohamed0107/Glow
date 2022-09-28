@@ -1,0 +1,20 @@
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    margin-bottom: -100px; /* the bottom margin is the negative value of the footer's total height */
+}
+  
+#wrapper:after {
+  content: "";
+  display: block;
+  height: 100px; /* the footer's total height */
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    border-radius: 25px 25px 0px 0px;
+  }
