@@ -30,7 +30,7 @@
   width: 32%;
   padding: 20px;
 }
-
+/*Totaal width van columns mag niet hoger dan 94%*/
 .row{
   background-color: rgb(113, 29, 29);
 }
