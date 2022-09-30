@@ -1,3 +1,93 @@
+#wrapper {
+  min-height: 100%;
+  height: auto !important;
+  margin-bottom: -100px; /* the bottom margin is the negative value of the footer's total height */
+}
+
+#wrapper:after {
+content: "";
+display: block;
+height: 100px; /* the footer's total height */
+}
+
+.header {
+padding: 30px;
+text-align: center;
+background-color: black;
+font-size: 35px;
+color: rgb(255, 255, 255);
+border-radius: 25px 25px 0px 0px;
+}
+
+.column_left {   
+float: left;
+width: 62%;
+padding: 20px;
+}
+
+.column_right {   
+float: left;
+width: 32%;
+padding: 20px;
+}
+/*Totaal width van columns mag niet hoger dan 94%*/
+.row{
+background-color: rgb(113, 29, 29);
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.footer {
+padding: 10px;
+text-align: center;
+background: rgb(0, 0, 0);
+border-radius: 0px 0px 25px 25px;
+color: rgb(255, 255, 255);
+height: 100px;
+}
+
+#footer-content {
+height: 70px;
+}
+
+@media screen and (max-width: 800px) {
+.leftcolumn, .rightcolumn {   
+  width: 100%;
+  padding: 0;
+}
+}
+
+.card_picture {
+background-color: rgb(201, 93, 93);
+padding: 20px;
+margin-top: 20px;
+display: grid;
+}
+
+.card_text {
+background-color: rgb(146, 67, 67);
+padding: 20px;
+margin-top: 20px;
+display: grid;
+}
+
+.card_right {
+background-color: rgb(146, 67, 67);
+padding: 20px;
+margin-top: 20px;
+display: grid;
+}
+
+@media only screen and (max-width: 700px){
+.modal-content {
+  width: 100%;
+}
+}
+
 .dropbtn {
     background-color: #3498DB;
     color: white;
