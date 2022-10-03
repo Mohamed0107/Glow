@@ -1,0 +1,150 @@
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    margin-bottom: -100px; /* the bottom margin is the negative value of the footer's total height */
+}
+  
+#wrapper:after {
+  content: "";
+  display: block;
+  height: 100px; /* the footer's total height */
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background-color: black;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  border-radius: 25px 25px 0px 0px;
+}
+
+.row{
+    background-color: rgb(113, 29, 29);
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+.footer {
+    padding: 10px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    border-radius: 0px 0px 25px 25px;
+    color: rgb(255, 255, 255);
+    height: 100px;
+  }
+  
+  #footer-content {
+    height: 70px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #000000;
+    color: rgb(255, 255, 0);
+    padding: 16px;
+    font-size: 17px;
+    border: none;
+    width: 150px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    width: 150px;
+    font-size: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(255, 255, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  .eventbook_knop{
+    background-color: #000000;
+    color: rgb(255, 255, 0);
+    padding: 16px;
+    font-size: 17px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .Contact{
+    background-color: #000000;
+    color: rgb(255, 255, 0);
+    padding: 16px;
+    font-size: 17px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: rgb(255, 255, 0);
+  }
+  
+  .btn-group button {
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+  }
+  
+  .btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+  }
+  
+  /* Clear floats (clearfix hack) */
+  .btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .card_links {
+    background-color: #6b6b6b;
+    border-style: solid;
+    border-color: #000000;
+    padding: 20px;
+    margin-top: 20px;
+    display: grid;
+  }
+  
+  .card_logo {
+    padding: 10px;
+    background-color: #000000;
+    margin-top: 10px;
+    width: 100%;
+    display: grid;
+  }

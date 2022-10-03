@@ -21,13 +21,13 @@
 
 .column_left {   
   float: left;
-  width: 15%;
+  width: 27%;
   padding: 20px;
 }
 
-.column_right {   
+.column_right {
   float: right;
-  width: 65%;
+  width: 67%;
   padding: 20px;
 }
 /*Totaal width van columns mag niet hoger dan 94%*/
@@ -68,9 +68,20 @@
   display: grid;
 }
 
+.card_links {
+  background-color: #6b6b6b;
+  border-style: solid;
+  border-color: #000000;
+  padding: 20px;
+  margin-top: 20px;
+  display: grid;
+}
+
 .card_logo {
   padding: 10px;
+  background-color: #000000;
   margin-top: 10px;
+  width: 100%;
   display: grid;
 }
 
@@ -100,7 +111,7 @@
   background-color: #000000;
   color: rgb(255, 255, 0);
   padding: 16px;
-  font-size: 16px;
+  font-size: 17px;
   border: none;
   width: 150px;
 }
@@ -130,32 +141,49 @@
   display: block;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
-
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-
-.eventbook_knop {
-  position: absolute;
-  right: 220px;
-  top: 60px;
+.eventbook_knop{
   background-color: #000000;
   color: rgb(255, 255, 0);
   padding: 16px;
-  font-size: 20px;
+  font-size: 17px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+}
+
+.Contact{
+  background-color: #000000;
+  color: rgb(255, 255, 0);
+  padding: 16px;
+  font-size: 17px;
   width: 150px;
   height: 50px;
   border: none;
   cursor: pointer;
-  float: left;
 }
 
 .header a {
   text-decoration: none;
   color: rgb(255, 255, 0);
+}
+
+.btn-group button {
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
 }
