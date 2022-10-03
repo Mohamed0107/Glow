@@ -62,6 +62,9 @@ height: 70px;
 }
 
 .card_picture {
+position: relative;
+width: 850px;
+height: 450px;
 background-color: rgb(201, 93, 93);
 padding: 20px;
 margin-top: 20px;
@@ -69,6 +72,9 @@ display: grid;
 }
 
 .card_text {
+position: relative;
+width: 850px;
+height: 450px;
 background-color: rgb(146, 67, 67);
 padding: 20px;
 margin-top: 20px;
@@ -93,6 +99,9 @@ display: grid;
 }
 
 .card_right {
+  position: relative;
+  width: 400px;
+  height: 920px;
 background-color: rgb(146, 67, 67);
 padding: 20px;
 margin-top: 20px;
@@ -197,4 +206,55 @@ display: grid;
   float: right;
   width: 67%;
   padding: 20px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.box {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  align-items: flex-start;
+  background: #fff;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+.box .single-box img {
+  position: absolute;
+  min-width: 90%;
+  min-height: 90%;
+  height: auto;
+  background: #000;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  opacity: 0;
+  transform: scale(1.5) rotate(15deg);
+  -webkit-animation: animate 32s infinite;
+  animation: animate 32s infinite;
+}
+.box .single-box:nth-child(3) img {
+  -webkit-animation-delay: 16s;
+  animation-delay: 8s;
+}
+.box .single-box:nth-child(2) img {
+  -webkit-animation-delay: 24s;
+  animation-delay: 16s;
+}
+.box .single-box:nth-child(1) img {
+  -webkit-animation-delay: 32s;
+  animation-delay: 24s;
+}
+@keyframes animate {
+  25% {
+      opacity: 1;
+      transform: scale(1) rotate(0);
+  }
+  40% {
+      opacity: 0;
+  }
 }
