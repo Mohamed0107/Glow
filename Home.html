@@ -6,123 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glow evenementen</title>
     <link rel="stylesheet" href="Home.css">
-    <script>
-        /* When the user clicks on the button, 
-        toggle between hiding and showing the dropdown content */
-        function myFunction() {
-          document.getElementById("myDropdown").classList.toggle("show");
-        }
-        
-        // Close the dropdown if the user clicks outside of it
-        window.onclick = function(event) {
-          if (!event.target.matches('.dropbtn')) {
-            var dropdowns = document.getElementsByClassName("dropdown-content");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-              var openDropdown = dropdowns[i];
-              if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-              }
-            }
-          }
-        }
-    </script>
-    <script>
-        /* When the user clicks on the button, 
-        toggle between hiding and showing the dropdown content */
-        function myFunction2() {
-          document.getElementById("myDropdown2").classList.toggle("show");
-        }
-        
-        // Close the dropdown if the user clicks outside of it
-        window.onclick = function(event) {
-          if (!event.target.matches('.dropbtn2')) {
-            var dropdowns = document.getElementsByClassName("dropdown-content2");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-              var openDropdown = dropdowns[i];
-              if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-              }
-            }
-          }
-        }
-    </script>
-    <script>
-        /* When the user clicks on the button, 
-        toggle between hiding and showing the dropdown content */
-        function myFunction3() {
-          document.getElementById("myDropdown3").classList.toggle("show");
-        }
-        
-        // Close the dropdown if the user clicks outside of it
-        window.onclick = function(event) {
-          if (!event.target.matches('.dropbtn3')) {
-            var dropdowns = document.getElementsByClassName("dropdown-content3");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-              var openDropdown = dropdowns[i];
-              if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-              }
-            }
-          }
-        }
-      </script>
 </head>
 <body>
     <div id="wrapper">
-        <div class="header">
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Categorie</button>
-                <div id="myDropdown" class="dropdown-content">
-                  <a href="#Activiteit">Activiteit 1</a>
-                  <a href="#Activiteit">Activiteit 2</a>
-                  <a href="#Activiteit">Activiteit 3</a>
-                  <a href="#Activiteit">Activiteit 4</a>
-                  <a href="#Activiteit">Activiteit 5</a>
+        <div class="header row">
+          <div class="column_left">
+            <div class="card_logo">
+              <a href="Home.html">
+                <img src="https://cdn.discordapp.com/attachments/826459345344135243/1026392448592781394/Glow-logo.png" height="80px" alt="Logo">
+              </a>
+            </div>
+          </div>
+          <div class="column_right">
+            <div class="card_links">
+              <div class="btn_group">
+                <div class="dropdown">
+                  <button class="dropbtn">Categorie 1</button>
+                  <div class="dropdown-content">
+                    <a href="Event1.html">Event 1</a>
+                    <a href="Event1.html">Event 2</a>
+                    <a href="Event1.html">Event 3</a>
+                  </div>
                 </div>
-              </div>
-              
-              <div class="dropdown2">
-                <button onclick="myFunction2()" class="dropbtn2">Categorie</button>
-                <div id="myDropdown2" class="dropdown-content2">
-                  <a href="#Activiteit">Activiteit 1</a>
-                  <a href="#Activiteit">Activiteit 2</a>
-                  <a href="#Activiteit">Activiteit 3</a>
-                  <a href="#Activiteit">Activiteit 4</a>
-                  <a href="#Activiteit">Activiteit 5</a>
-                  <a href="#Activiteit">Activiteit 6</a>
+
+                <div class="dropdown">
+                  <button class="dropbtn">Dropdown</button>
+                  <div class="dropdown-content">
+                    <a href="Event1.html">Event 1</a>
+                    <a href="Event1.html">Event 2</a>
+                    <a href="Event1.html">Event 3</a>
+                  </div>
                 </div>
-              </div>
         
-              <div class="dropdown3">
-                <button onclick="myFunction3()" class="dropbtn3">Categorie</button>
-                <div id="myDropdown3" class="dropdown-content3">
-                  <a href="#Activiteit">Activiteit 1</a>
-                  <a href="#Activiteit">Activiteit 2</a>
-                  <a href="#Activiteit">Activiteit 3</a>
-                  <a href="#Activiteit">Activiteit 4</a>
-                  <a href="#Activiteit">Activiteit 5</a>
-                  <a href="#Activiteit">Activiteit 6</a>
-                  <a href="#Activiteit">Activiteit 7</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Dropdown</button>
+                  <div class="dropdown-content">
+                    <a href="Event1.html">Event 1</a>
+                    <a href="Event1.html">Event 2</a>
+                    <a href="Event1.html">Event 3</a>
+                  </div>
+                </div>
+
+                <div class="dropdown">
+                  <button class="eventbook_knop">
+                    <a href="eventbook.html" target="_self">Event Book</a>
+                  </button>
+                </div>
+                <div class="dropdown">
+                  <button class="Contact">
+                    <a href="contact.html" target="_self">Contact</a>
+                  </button>
                 </div>
               </div>
-        </div>
-        <div class="row">
-            <div class="column_left">
-                <div class="card_picture">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta officia aperiam rem architecto ducimus cum sapiente reprehenderit dolorum recusandae quos quo eveniet, commodi, nesciunt alias sed fugiat! Natus, praesentium doloremque.</p>
-                </div>
-                <div class="card_text">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo saepe voluptatibus mollitia alias! Omnis asperiores modi nulla nemo facilis harum corporis esse labore atque ullam! Neque et voluptas dolorem provident?</p>
-                </div>
             </div>
-            <div class="column_right">
-                <div class="card_right">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis facere a illo quidem fugit voluptate sit suscipit obcaecati aliquam. Ratione debitis perspiciatis suscipit repellat ullam fugiat? Quam possimus fugit excepturi!</p>
-                </div>
-            </div>
+          </div>
         </div>
     </div>
     <div class="footer">
