@@ -4,6 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+       <div class="text">
+        <h1>zelf een enemenemt organiseren ? neem contact op</h1>
+       </div>
+
+<div class="contactbox">
+    <div id="contact">
+       <div><input name="name-*" id="naam" type="text" placeholder="Naam *">
+    </div>
+
+    <div><input name="name-*" id="Email" type="text" placeholder="Email *">
+</div>
+
+<div><input name="name-*" id="onderwerp" type="text" placeholder="Onderwerp *">
+</div>
+
+<div><input name="name-*" id="bericht" type="text" placeholder="Bericht*">
+</div>
+</div>
+<div>
+    <button id="knop">send </button>
+    </div>
+</div>
+</div>
+
+<div class="container">
+    <form onsubmit="sendEmail(); reset(); return false;">
+    <h3>GET IN TOUCH</h3>
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="text" id="email" placeholder="Email" required>
+    <input type="text" id="email" placeholder="Phone no" required>
+    <textarea id="message" rows="4" placeholder="How can we help you ?"></textarea>
+    <button type="submit">Send</button>
+    </form>
+</div>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendEmail(){
+        Email.send({
+    Host : "smtp.gmail.com",
+    Username : "eshaghiabolfazl203@gmail.com",
+    Password : "rjr6",
+    To : 'eshaghiabolfazl203@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "New contract form enquiri",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+    }
+</script> 
+
+ 
+
     <title>Glow evenementen</title>
     <link rel="stylesheet" href="Home.css">
 </head>
@@ -65,5 +122,6 @@
     <div class="footer">
 
     </div>
+
 </body>
 </html>
