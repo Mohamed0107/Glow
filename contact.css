@@ -127,7 +127,7 @@ form button{
 }
 /*Totaal width van columns mag niet hoger dan 94%*/
 .row{
-  background-color: rgb(113, 29, 29);
+  background-color: #c3c3c3;
 }
 
 .row:after {
@@ -164,7 +164,7 @@ form button{
 }
 
 .card_links {
-  background-color: #6b6b6b;
+  background-color: #7f7f7f;
   border-style: solid;
   border-color: #000000;
   padding: 20px;
