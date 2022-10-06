@@ -258,3 +258,30 @@ display: grid;
       opacity: 0;
   }
 }
+
+
+#ft-form {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+}
+* form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+user agent stylesheet
+form {
+  display: block;
+  margin-top: 0em;
+}
