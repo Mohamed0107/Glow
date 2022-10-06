@@ -15,7 +15,7 @@ padding: 30px;
 text-align: center;
 background-color: black;
 font-size: 35px;
-color: rgb(255, 255, 255);
+color: #c3c3c3;
 border-radius: 25px 25px 0px 0px;
 }
 
@@ -117,7 +117,7 @@ display: grid;
 /* Dropdown Button */
 .dropbtn {
   background-color: #000000;
-  color: rgb(255, 255, 0);
+  color: #ad8848;
   padding: 16px;
   font-size: 17px;
   border: none;
@@ -143,7 +143,7 @@ display: grid;
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: rgb(255, 255, 0);
+  color: #ad8848;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -157,7 +157,7 @@ display: grid;
 
 .eventbook_knop{
   background-color: #000000;
-  color: rgb(255, 255, 0);
+  color: #ad8848;
   padding: 16px;
   font-size: 17px;
   width: 150px;
@@ -167,7 +167,7 @@ display: grid;
 
 .Contact{
   background-color: #000000;
-  color: rgb(255, 255, 0);
+  color: #ad8848;
   padding: 16px;
   font-size: 17px;
   width: 150px;
@@ -177,7 +177,7 @@ display: grid;
 
 .header a {
   text-decoration: none;
-  color: rgb(255, 255, 0);
+  color: #ad8848;
 }
 
 .btn-group button {
