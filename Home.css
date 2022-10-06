@@ -31,7 +31,7 @@
   padding: 20px;
 }
 .row{
-  background-color: rgb(113, 29, 29);
+  background-color: #c3c3c3;
 }
 
 .row:after {
@@ -107,7 +107,7 @@
 .dropbtn {
   position: relative;
   background-color: #000000;
-  color: rgb(255, 255, 0);
+  color: #ad8848;
   padding: 16px;
   font-size: 17px;
   border: none;
@@ -133,7 +133,7 @@
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: rgb(255, 255, 0);
+  color: #ad8848;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -146,7 +146,7 @@
 
 .eventbook_knop{
   background-color: #000000;
-  color: rgb(255, 255, 0);
+  color: #ad8848;
   padding: 16px;
   font-size: 17px;
   width: 150px;
@@ -156,7 +156,7 @@
 
 .Contact{
   background-color: #000000;
-  color: rgb(255, 255, 0);
+  color: #ad8848;
   padding: 16px;
   font-size: 17px;
   width: 150px;
@@ -167,7 +167,7 @@
 
 .header a {
   text-decoration: none;
-  color: rgb(255, 255, 0);
+  color: #ad8848;
 }
 
 .btn-group button {
@@ -193,155 +193,65 @@
   font-family: 'Poppins',sans-serif;
 }
 
-.container{
-  max-width: 950px;
-  width: 300%;
-  overflow: hidden;
-  padding: 80px 0;
-  margin: auto;
-}
-.container .main-card{
-  display: flex;
-  justify-content: space-evenly;
-  width: 300%;
-  transition: 1s;
-}
-#two:checked ~ .main-card{
-  margin-left: -100%;
-}
-
-#three:checked ~ .main-card{
-  margin-left: -200%;
-}
-
-.container .main-card .cards{
-  width: calc(100% / 2 - 10px);
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 20px;
-  justify-content: space-between;
-}
-.main-card .cards .card{
-  width: calc(100% / 4 - 10px);
-  background: #7f7f7f;
-  border-radius: 12px;
-  padding: 30px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
-  transition: all 0.4s ease;
-}
-.main-card .cards .card:hover{
-  transform: translateY(-15px);
-}
-.cards .card .content{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.midden{
+  background-color: #c3c3c3;
+  display: grid;
+  height: 100%;
+  place-items: center;
   text-align: center;
 }
-.cards .card .content .img{
-  max-height: 50%;
-  width: 100%;
-  padding: 3px;
-  margin-bottom: 14px;
+
+.slider{
+  max-width: 1100px;
+  display: flex;
 }
-.card .content .img img{
+.slider .card{
+  flex: 1;
+  margin: 0 10px;
+  background: rgb(255, 255, 255);
+}
+.slider .card .img{
+  height: 200px;
+  width: 100%;
+}
+.slider .card .img img{
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-.card .content .name{
+.slider .card .content{
+  padding: 10px 20px;
+}
+.card .content .title{
+  font-size: 25px;
+  font-weight: 600;
+}
+.card .content .sub-title{
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
+  color: #e74c3c;
+  line-height: 20px;
 }
-.card .content .job{
-  font-size: 20px;
-  color: #FF676D;
+.card .content p{
+  text-align: justify;
+  margin: 10px 0;
 }
-.card .content .media-icons{
-  margin-top: 10px;
-  display: flex;
-
+.card .content .btn{
+  display: block;
+  text-align: left;
+  margin: 10px 0;
 }
-.media-icons a{
-  text-align: center;
-  line-height: 33px;
-  height: 35px;
-  width: 35px;
-  margin: 0 4px;
-  font-size: 14px;
-  color: #FFF;
-  border-radius: 50%;
-  border: 2px solid transparent;
-  background: #FF676D;
-  transition: all 0.3s ease;
-}
-.media-icons a:hover{
-  color: #FF676D;
-  background-color: #fff;
-  border-color: #FF676D;
-}
- .container .button{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin: 20px;
-}
-.button label{
-  height: 15px;
-  width: 15px;
-  border-radius: 20px;
-  background: #fff;
-  margin: 0 4px;
+.card .content .btn button{
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  padding: 5px 8px;
+  border-radius: 5px;
   cursor: pointer;
-  transition: all 0.5s ease;
+  transition: 0.2s;
 }
-.button label.active{
-  width: 35px;
-}
-#one:checked ~ .button .one{
-  width: 35px;
-}
-#one:checked ~ .button .two {
-  width: 15px;
-}
-#one:checked ~ .button .three {
-  width: 15px;
-}
-#two:checked ~ .button .one {
-  width: 15px;
-}
-#two:checked ~ .button .three {
-  width: 15px;
-}
-#two:checked ~ .button .two{
-  width: 35px;
-}
-#three:checked ~ .button .one {
-  width: 15px;
-}
-#three:checked ~ .button .two {
-  width: 15px;
-}
-#three:checked ~ .button .three{
-  width: 35px;
-}
-input[type="radio"]{
-  display: none;
-}
-@media (max-width: 768px) {
-  .main-card .cards .card{
-    margin: 20px 0 10px 0;
-    width: calc(100% / 2 - 10px);
-  }
-}
-@media (max-width: 600px) {
-  .main-card .cards .card{
-    /* margin: 20px 0 10px 0; */
-    width: 100%;
-  }
-}
-.midden{
-  background-color: #c3c3c3;
-}
+.card .content .btn button:hover{
+  transform: scale(0.9);
+} 
