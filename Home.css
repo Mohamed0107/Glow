@@ -255,10 +255,10 @@
 .card .content .name{
   font-size: 20px;
   font-weight: 500;
+  color: #ad8848;
 }
 .card .content .job{
   font-size: 20px;
-  color: #ad8848;
 }
 .card .content .media-icons{
   margin-top: 10px;
@@ -269,19 +269,21 @@
   text-align: center;
   line-height: 33px;
   height: 35px;
-  width: 35px;
+  width: 150px;
   margin: 0 4px;
   font-size: 14px;
   color: #FFF;
-  border-radius: 50%;
+  border-radius: 10%;
   border: 2px solid transparent;
-  background: #FF676D;
+  background: #ad8848;
   transition: all 0.3s ease;
+  text-decoration: none;
 }
 .media-icons a:hover{
-  color: #FF676D;
+  color: #ad8848;
   background-color: #fff;
-  border-color: #FF676D;
+  border-color: #ad8848;
+  text-decoration: none;
 }
  .container .button{
   width: 100%;
@@ -293,7 +295,7 @@
   height: 15px;
   width: 15px;
   border-radius: 20px;
-  background: #fff;
+  background: #6b6b6b;
   margin: 0 4px;
   cursor: pointer;
   transition: all 0.5s ease;
