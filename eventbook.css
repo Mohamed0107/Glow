@@ -21,13 +21,13 @@ border-radius: 25px 25px 0px 0px;
 
 .column_left {   
 float: left;
-width: 62%;
+width: 33%;
 padding: 20px;
 }
 
 .column_right {   
 float: left;
-width: 32%;
+width: 67%;
 padding: 20px;
 }
 /*Totaal width van columns mag niet hoger dan 94%*/
