@@ -2,6 +2,8 @@
     min-height: 100%;
     height: auto !important;
     margin-bottom: -100px; /* the bottom margin is the negative value of the footer's total height */
+    background-color: #c3c3c3;
+    border-radius: 50px;
 }
   
 #wrapper:after {
@@ -13,10 +15,12 @@
 .header {
   padding: 30px;
   text-align: center;
-  background-color: #c3c3c3;
+  background-color: #7f7f7f;
   font-size: 35px;
   color: rgb(255, 255, 255);
   border-radius: 25px 25px 0px 0px;
+  border-bottom: #000000;
+  border-width: 3px;
 }
 
 .column_left {   
@@ -361,6 +365,7 @@ input[type="radio"]{
   border-style: solid;
   border-width: 3px;
   text-align: center;
+  margin: 50px 0;
   line-height: 200px;
   margin-left: calc(50% - 500px);
   transition: transform 0.5s, opacity 0.5s;
@@ -376,6 +381,7 @@ input[type="radio"]{
   border-style: solid;
   border-width: 3px;
   text-align: center;
+  margin: 50px 0;
   line-height: 200px;
   margin-left: calc(50% + 100px);
   transition: transform 0.5s, opacity 0.5s;
@@ -405,4 +411,8 @@ input[type="radio"]{
 
 .onder{
   background-color: #c3c3c3;
+}
+
+.footer-tekst{
+  color: #fff;
 }
