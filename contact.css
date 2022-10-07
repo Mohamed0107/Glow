@@ -4,9 +4,13 @@ position: fixed;
 left:282px;
 top: 20px;
 }
+#text{
+  position: fixed;
+  text-align: center;
+}
 
   body{
-    background-color: lightgrey;
+    background-color: #c3c3c3;
   }
 
 
@@ -212,11 +216,11 @@ form{
 /* dit is de nieuwe mail */
  #ft-form {
   position: relative;
-  left: 700px; 
+  left: 800px; 
   font-family: inherit;
   font-size: 100%;
   line-height: 1.15;
-  
+  top: 60px;
 }
 #ft-form *,
 #ft-form ::after,
