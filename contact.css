@@ -5,8 +5,8 @@ left:282px;
 top: 20px;
 }
 #text{
-  position: relative;
-  left: 400px;
+  position: fixed;
+  text-align: center;
 }
 
   body{
