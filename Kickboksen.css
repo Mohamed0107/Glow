@@ -1,14 +1,17 @@
 #wrapper {
   min-height: 100%;
   height: auto !important;
-  margin-bottom: -100px; /* the bottom margin is the negative value of the footer's total height */
+  margin-bottom: -200px; /* the bottom margin is the negative value of the footer's total height */
+  background-color: #c3c3c3;
+  border-radius: 25px;
 }
 
 #wrapper:after {
 content: "";
 display: block;
-height: 100px; /* the footer's total height */
+height: 200px; /* the footer's total height */
 }
+
 
 .header {
 padding: 30px;
