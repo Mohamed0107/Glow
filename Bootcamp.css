@@ -1,14 +1,17 @@
 #wrapper {
-  min-height: 100%;
-  height: auto !important;
-  margin-bottom: -100px; /* the bottom margin is the negative value of the footer's total height */
+    min-height: 100%;
+    height: auto !important;
+    margin-bottom: -200px; /* the bottom margin is the negative value of the footer's total height */
+    background-color: #c3c3c3;
+    border-radius: 25px;
+}
+  
+#wrapper:after {
+  content: "";
+  display: block;
+  height: 200px; /* the footer's total height */
 }
 
-#wrapper:after {
-content: "";
-display: block;
-height: 100px; /* the footer's total height */
-}
 
 .header {
 padding: 30px;
@@ -21,15 +24,10 @@ border-radius: 25px 25px 0px 0px;
 
 .column_left {   
 float: left;
-width: 62%;
+width: 100%;
 padding: 20px;
 }
 
-.column_right {   
-float: left;
-width: 32%;
-padding: 20px;
-}
 /*Totaal width van columns mag niet hoger dan 94%*/
 .row{
 background-color: #c3c3c3;
@@ -63,8 +61,8 @@ height: 70px;
 
 .card_picture {
 position: relative;
-width: 850px;
-height: 450px;
+width: 100%;
+height: auto;
 border-color: #ad8848;
 border-style: solid;
 border-width: 3px;
@@ -76,8 +74,8 @@ display: grid;
 
 .card_text {
 position: relative;
-width: 850px;
-height: 450px;
+width: 100%;
+height: auto;
 border-color: #ad8848;
 border-style: solid;
 border-width: 3px;
@@ -167,6 +165,15 @@ display: grid;
   display: block;
 }
 
+.partners_knop{
+  background-color: #000000;
+  color: #ad8848;
+  padding: 16px;
+  font-size: 17px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+}
 
 .eventbook_knop{
   background-color: #000000;
@@ -211,15 +218,16 @@ display: grid;
 
 .column_header_left{
   float: left;
-  width: 30%;
+  width: 33%;
   padding: 20px;
 }
 
 .column_header_right{
   float: right;
-  width: 70%;
+  width: 67%;
   padding: 20px;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -232,8 +240,8 @@ display: grid;
   display: flex;
   align-items: flex-start;
   background: #fff;
-  width: 800px;
-  height: 400px;
+  width: auto;
+  height: 600px;
   overflow: hidden;
   position: relative;
 }
@@ -270,4 +278,8 @@ display: grid;
   40% {
       opacity: 0;
   }
+}
+
+.card_text h1{
+  justify-self: center;
 }

@@ -1,14 +1,17 @@
 #wrapper {
   min-height: 100%;
   height: auto !important;
-  margin-bottom: -100px; /* the bottom margin is the negative value of the footer's total height */
+  margin-bottom: -200px; /* the bottom margin is the negative value of the footer's total height */
+  background-color: #c3c3c3;
+  border-radius: 25px;
 }
 
 #wrapper:after {
 content: "";
 display: block;
-height: 100px; /* the footer's total height */
+height: 200px; /* the footer's total height */
 }
+
 
 .header {
 padding: 30px;
@@ -115,10 +118,10 @@ display: grid;
   border-color: #ad8848;
   border-style: solid;
   border-width: 3px;
-background-color: #7f7f7f;
-padding: 20px;
-margin-top: 20px;
-display: grid;
+  background-color: #7f7f7f;
+  padding: 20px;
+  margin-top: 20px;
+  display: grid;
 }
 
 @media only screen and (max-width: 700px){
@@ -167,6 +170,15 @@ display: grid;
   display: block;
 }
 
+.partners_knop{
+  background-color: #000000;
+  color: #ad8848;
+  padding: 16px;
+  font-size: 17px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+}
 
 .eventbook_knop{
   background-color: #000000;

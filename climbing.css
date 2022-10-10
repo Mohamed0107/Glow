@@ -1,14 +1,17 @@
 #wrapper {
   min-height: 100%;
   height: auto !important;
-  margin-bottom: -100px; /* the bottom margin is the negative value of the footer's total height */
+  margin-bottom: -200px; /* the bottom margin is the negative value of the footer's total height */
+  background-color: #c3c3c3;
+  border-radius: 25px;
 }
 
 #wrapper:after {
 content: "";
 display: block;
-height: 100px; /* the footer's total height */
+height: 200px; /* the footer's total height */
 }
+
 
 .header {
 padding: 30px;
@@ -167,6 +170,15 @@ display: grid;
   display: block;
 }
 
+.partners_knop{
+  background-color: #000000;
+  color: #ad8848;
+  padding: 16px;
+  font-size: 17px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+}
 
 .eventbook_knop{
   background-color: #000000;
@@ -211,15 +223,16 @@ display: grid;
 
 .column_header_left{
   float: left;
-  width: 30%;
+  width: 33%;
   padding: 20px;
 }
 
 .column_header_right{
   float: right;
-  width: 70%;
+  width: 67%;
   padding: 20px;
 }
+
 * {
   padding: 0;
   margin: 0;
