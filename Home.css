@@ -172,6 +172,16 @@
   cursor: pointer;
 }
 
+.partners_knop{
+  background-color: #000000;
+  color: #ad8848;
+  padding: 16px;
+  font-size: 17px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+}
+
 .Contact{
   background-color: #000000;
   color: #ad8848;

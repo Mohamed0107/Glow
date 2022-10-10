@@ -45,18 +45,18 @@ form{
   border-radius: 25px 25px 0px 0px;
 }
 
-.column_left {   
+.column_left{
   float: left;
-  width: 27%;
+  width: 33%;
   padding: 20px;
 }
 
-.column_right {
+.column_right{
   float: right;
   width: 67%;
   padding: 20px;
 }
-/*Totaal width van columns mag niet hoger dan 94%*/
+
 .row{
   background-color: #c3c3c3;
 }
@@ -173,6 +173,16 @@ form{
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.partners_knop{
+  background-color: #000000;
+  color: #ad8848;
+  padding: 16px;
+  font-size: 17px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
 }
 
 .eventbook_knop{

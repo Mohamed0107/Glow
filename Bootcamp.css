@@ -167,6 +167,15 @@ display: grid;
   display: block;
 }
 
+.partners_knop{
+  background-color: #000000;
+  color: #ad8848;
+  padding: 16px;
+  font-size: 17px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+}
 
 .eventbook_knop{
   background-color: #000000;
@@ -211,15 +220,16 @@ display: grid;
 
 .column_header_left{
   float: left;
-  width: 30%;
+  width: 33%;
   padding: 20px;
 }
 
 .column_header_right{
   float: right;
-  width: 70%;
+  width: 67%;
   padding: 20px;
 }
+
 * {
   padding: 0;
   margin: 0;
