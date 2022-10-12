@@ -1,13 +1,11 @@
-HEAD
 body {
     margin: 0;
     padding: 0;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: "Roboto", sans-serif;
     background: linear-gradient(90deg, #fff 50%, #4a1010 50%);
+    
 }
 input{
     display: none;
@@ -17,7 +15,10 @@ img{
     width: 100%;
 }
 .book{
+  margin-top: 40px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #cover{
     width: 250px;
@@ -73,19 +74,55 @@ p{
     color: rgb(0, 0, 0);
 }
 #p1 {
-    z-index: 5;
+    z-index: 17;
 }
 #p2{
-    z-index: 4;
+    z-index: 16;
 }
 #p3{
-    z-index: 3;
+    z-index: 15;
 }
 #p4{
-    z-index: 2;
+    z-index: 14;
 }
 #p5{
-    z-index: 1;
+    z-index: 13;
+}
+#p6 {
+  z-index: 12;
+}
+#p7 {
+  z-index: 11;
+}
+#p8{
+  z-index: 10;
+}
+#p9{
+  z-index: 9;
+}
+#p10{
+  z-index: 8;
+}
+#p11{
+  z-index: 7;
+}
+#p12{
+  z-index: 6
+}
+#p13{
+  z-index: 5;
+}
+#p14{
+  z-index: 4;
+}
+#p15{
+  z-index: 3;
+}
+#p16{
+  z-index: 2;
+}
+#p17{
+  z-index: 1;
 }
 #c1:checked ~.flip-book #p1{
     transform: rotateY(-180deg);
@@ -107,6 +144,54 @@ p{
     transform: rotateY(-180deg);
     z-index: 5;
 }
+#c6:checked ~.flip-book #p6{
+  transform: rotateY(-180deg);
+  z-index: 6;
+}
+#c7:checked ~.flip-book #p7{
+  transform: rotateY(-180deg);
+  z-index: 7;
+}
+#c8:checked ~.flip-book #p8{
+  transform: rotateY(-180deg);
+  z-index: 8;
+}
+#c9:checked ~.flip-book #p9{
+  transform: rotateY(-180deg);
+  z-index: 9;
+}
+#c10:checked ~.flip-book #p10{
+  transform: rotateY(-180deg);
+  z-index: 10;
+}
+#c11:checked ~.flip-book #p11{
+  transform: rotateY(-180deg);
+  z-index: 11;
+}
+#c12:checked ~.flip-book #p12{
+  transform: rotateY(-180deg);
+  z-index: 12;
+}
+#c13:checked ~.flip-book #p13{
+  transform: rotateY(-180deg);
+  z-index: 13;
+}
+#c14:checked ~.flip-book #p14{
+  transform: rotateY(-180deg);
+  z-index: 14;
+}
+#c15:checked ~.flip-book #p15{
+  transform: rotateY(-180deg);
+  z-index: 15;
+}
+#c16:checked ~.flip-book #p16{
+  transform: rotateY(-180deg);
+  z-index: 16;
+}
+#c17:checked ~.flip-book #p17{
+  transform: rotateY(-180deg);
+  z-index: 17;
+}
 .Hoofd{
     line-height: 20px;
 }
@@ -117,11 +202,10 @@ p{
 }
 
 #wrapper:after {
-content: "";
-display: block;
-height: 100px; /* the footer's total height */
+  content: "";
+  display: block;
+  height: 100px; /* the footer's total height */
 }
-
 .header {
 padding: 30px;
 text-align: center;
