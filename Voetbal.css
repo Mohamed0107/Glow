@@ -46,12 +46,12 @@ clear: both;
 }
 
 .footer {
-  padding: 10px;
-  text-align: center;
-  background: rgb(0, 0, 0);
-  border-radius: 0px 0px 25px 25px;
-  color: rgb(255, 255, 255);
-  height: 200px;
+padding: 10px;
+text-align: center;
+background: rgb(0, 0, 0);
+border-radius: 0px 0px 25px 25px;
+color: rgb(255, 255, 255);
+height: 200px;
 }
 
 #footer-content {
@@ -315,13 +315,6 @@ justify-self: center;
   padding: 20px;
   margin-top: 10px;
   display: grid;
-}
-
-.column-footer{
-  float: left;
-  width: 30%;
-  padding: 20px;
-  margin: 0px 20px;
 }
 
 .column-footer{
