@@ -4,7 +4,6 @@ body {
     height: 100vh;
     display: flex;
     font-family: "Roboto", sans-serif;
-    background: linear-gradient(90deg, rgb(0, 0, 0) 20%, #dba40c);
     
 }
 input{
@@ -478,4 +477,7 @@ display: grid;
 }
 h2{
   color: black;
+}
+.midden{
+  background: linear-gradient(90deg, rgb(0, 0, 0) 20%, #dba40c);
 }
