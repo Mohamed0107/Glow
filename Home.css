@@ -38,6 +38,8 @@
 .column-footer{
   float: left;
   width: 30%;
+  padding: 20px;
+  margin: 0px 20px;
 }
 
 .row{
@@ -118,7 +120,7 @@
   display: grid;
 }
 
-.card_footer {
+.card-footer {
   background-color: #6b6b6b;
   border-color: #ad8848;
   border-style: solid;
@@ -450,4 +452,16 @@ input[type="radio"]{
 
 .onder{
   background-color: #c3c3c3;
+}
+
+.card-footer a {
+  color: #ad8848;
+  padding: 4px;
+  text-decoration: underline;
+  display: block;
+}
+
+.card-footer img{
+  width: 100%;
+  align-self: center;
 }
