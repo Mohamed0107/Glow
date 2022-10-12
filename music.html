@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script type="text/javascript">
+
+    var urls = new Array();
+    urls[0] = "Voetbal.html";
+    urls[1] = "Basketbal.html";
+    urls[2] = "Climbing.html";
+    urls[3] = "Kickboksen.html";
+    urls[4] = "Zwemmen.html";
+    urls[5] = "Bootcamp.html"
+
+    
+    var random = Math.floor(Math.random()*urls.length);
+    
+    window.location = urls[random];
+    
+    </script>
+</body>
+</html>
