@@ -35,26 +35,19 @@
   padding: 20px;
 }
 
-.column-footer-links {
+.column-footer{
   float: left;
-  width: 31%;
-  padding: 20px;
-}
-
-.column-footer-mid {
-  float: left;
-  width: 31%;
-  padding: 20px;
-}
-
-.column-footer-rechts {
-  float: left;
-  width: 31%;
-  padding: 20px;
+  width: 30%;
 }
 
 .row{
   background-color: #c3c3c3;
+}
+
+.row-footer:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .row:after {
