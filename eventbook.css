@@ -4,7 +4,7 @@ body {
     height: 100vh;
     display: flex;
     font-family: "Roboto", sans-serif;
-    background: linear-gradient(90deg, rgb(255, 255, 255) 50%, #4a1010 50%);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 20%, #dba40c);
     
 }
 input{
