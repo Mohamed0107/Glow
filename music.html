@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script type="text/javascript">
+
+    var urls = new Array();
+    urls[0] = "Dj.html";
+    urls[1] = "Breakdance.html";
+    urls[2] = "Karaoke.html";
+    urls[3] = "Disco.html";
+    urls[4] = "Concert.html";
+    urls[5] = "Instruments.html";
+
+    
+    var random = Math.floor(Math.random()*urls.length);
+    
+    window.location = urls[random];
+    
+    </script>
+</body>
+</html>

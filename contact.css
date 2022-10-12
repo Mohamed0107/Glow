@@ -1,8 +1,6 @@
 HEAD
 .text{
-position: fixed;
-left:282px;
-top: 20px;
+justify-self: center;
 }
 #text{
   position: fixed;
