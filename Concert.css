@@ -255,71 +255,320 @@
   position: absolute;
   min-width: 100%;
   min-height: 100%;
-  height: 300px;
-  background: #000;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  opacity: 0;
-  transform: scale(1.5) rotate(15deg);
-  -webkit-animation: animate 32s infinite;
-  animation: animate 32s infinite;
-  }
-  .box .single-box:nth-child(3) img {
-  -webkit-animation-delay: 16s;
-  animation-delay: 8s;
-  }
-  .box .single-box:nth-child(2) img {
-  -webkit-animation-delay: 24s;
-  animation-delay: 16s;
-  }
-  .box .single-box:nth-child(1) img {
-  -webkit-animation-delay: 32s;
-  animation-delay: 24s;
-  }
-  @keyframes animate {
-  25% {
-      opacity: 1;
-      transform: scale(1) rotate(0);
-  }
-  40% {
-      opacity: 0;
-  }
-  }
-  
-  .card_text h1{
-  justify-self: center;
-  }
+  height: auto !important;
+  margin-bottom: -200px; /* the bottom margin is the negative value of the footer's total height */
+  background-color: #c3c3c3;
+  border-radius: 25px;
+}
 
-  .card-footer a {
-    color: #ad8848;
-    padding: 4px;
-    text-decoration: underline;
-    display: block;
-  }
-  
-  .card-footer img{
-    width: 100%;
-    align-self: center;
-  }
-  
-  .card-footer ul{
-    align-self: center;
-  }
-  
-  .card-footer {
-    background-color: #6b6b6b;
-    border-color: #ad8848;
-    border-style: solid;
-    border-width: 3px;
-    height: 140px;
-    padding: 20px;
-    margin-top: 10px;
-    display: grid;
-  }
-  
+#wrapper:after {
+content: "";
+display: block;
+height: 200px; /* the footer's total height */
+}
+
+
+.header {
+padding: 30px;
+text-align: center;
+background-color: black;
+font-size: 35px;
+color: rgb(255, 255, 255);
+border-radius: 25px 25px 0px 0px;
+}
+
+.column_left {   
+float: left;
+width: 100%;
+padding: 20px;
+}
+
+/*Totaal width van columns mag niet hoger dan 94%*/
+.row{
+background-color: #c3c3c3;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.footer {
+padding: 10px;
+text-align: center;
+background: rgb(0, 0, 0);
+border-radius: 0px 0px 25px 25px;
+color: rgb(255, 255, 255);
+height: 200px;
+}
+
+#footer-content {
+height: 70px;
+}
+
+@media screen and (max-width: 800px) {
+.leftcolumn, .rightcolumn {   
+width: 100%;
+padding: 0;
+}
+}
+
+.card_picture {
+position: relative;
+width: 100%;
+height: auto;
+border-color: #ad8848;
+border-style: solid;
+border-width: 3px;
+background-color: #7f7f7f;
+padding: 20px;
+margin-top: 20px;
+display: grid;
+}
+
+.card_text {
+position: relative;
+width: 100%;
+height: auto;
+border-color: #ad8848;
+border-style: solid;
+border-width: 3px;
+background-color: #7f7f7f;
+padding: 20px;
+margin-top: 20px;
+display: grid;
+}
+
+.card_links {
+background-color: #7f7f7f;
+border-color: #ad8848;
+border-style: solid;
+border-width: 3px;
+padding: 20px;
+margin-top: 20px;
+display: grid;
+}
+
+.card_logo {
+padding: 10px;
+background-color: #000000;
+border-color: #ad8848;
+border-style: solid;
+border-width: 3px;
+margin-top: 10px;
+width: 100%;
+display: grid;
+}
+
+.card_right {
+position: relative;
+width: 400px;
+height: 920px;
+border-color: #ad8848;
+border-style: solid;
+border-width: 3px;
+background-color: #7f7f7f;
+padding: 20px;
+margin-top: 20px;
+display: grid;
+}
+
+@media only screen and (max-width: 700px){
+.modal-content {
+width: 100%;
+}
+}
+
+/* Dropdown Button */
+.dropbtn {
+background-color: #000000;
+color: #ad8848;
+padding: 16px;
+font-size: 17px;
+border: none;
+width: 150px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #000000;
+width: 150px;
+font-size: 16px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+color: #ad8848;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.partners_knop{
+background-color: #000000;
+color: #ad8848;
+padding: 16px;
+font-size: 17px;
+width: 150px;
+border: none;
+cursor: pointer;
+}
+
+.eventbook_knop{
+background-color: #000000;
+color: #ad8848;
+padding: 16px;
+font-size: 17px;
+width: 150px;
+border: none;
+cursor: pointer;
+}
+
+.Contact{
+background-color: #000000;
+color: #ad8848;
+padding: 16px;
+font-size: 17px;
+width: 150px;
+border: none;
+cursor: pointer;
+}
+
+.header a {
+text-decoration: none;
+color: #ad8848;
+}
+
+.btn-group button {
+cursor: pointer; /* Pointer/hand icon */
+float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+content: "";
+clear: both;
+display: table;
+}
+
+.column_header_left{
+float: left;
+width: 33%;
+padding: 20px;
+}
+
+.column_header_right{
+float: right;
+width: 67%;
+padding: 20px;
+}
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.box {
+position: relative;
+left: 0px;
+top: 0px;
+display: flex;
+align-items: flex-start;
+background: #fff;
+width: auto;
+height: 600px;
+overflow: hidden;
+position: relative;
+}
+.box .single-box img {
+position: absolute;
+min-width: 100%;
+min-height: 100%;
+height: 300px;
+background: #000;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+opacity: 0;
+transform: scale(1.5) rotate(15deg);
+-webkit-animation: animate 32s infinite;
+animation: animate 32s infinite;
+}
+.box .single-box:nth-child(3) img {
+-webkit-animation-delay: 16s;
+animation-delay: 8s;
+}
+.box .single-box:nth-child(2) img {
+-webkit-animation-delay: 24s;
+animation-delay: 16s;
+}
+.box .single-box:nth-child(1) img {
+-webkit-animation-delay: 32s;
+animation-delay: 24s;
+}
+@keyframes animate {
+25% {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+}
+40% {
+    opacity: 0;
+}
+}
+
+.card_text h1{
+justify-self: center;
+}
+
+.card-footer a {
+  color: #ad8848;
+  padding: 4px;
+  text-decoration: underline;
+  display: block;
+}
+
+.card-footer img{
+  width: 100%;
+  align-self: center;
+}
+
+.card-footer ul{
+  align-self: center;
+}
+
+.card-footer {
+  background-color: #6b6b6b;
+  border-color: #ad8848;
+  border-style: solid;
+  border-width: 3px;
+  height: 140px;
+  padding: 20px;
+  margin-top: 10px;
+  display: grid;
+}
+
 .column-footer{
-    float: left;
-    width: 30%;
-    padding: 20px;
-    margin: 0px 20px;
-  }
+  float: left;
+  width: 30%;
+  padding: 20px;
+  margin: 0px 20px;
+}
