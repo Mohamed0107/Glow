@@ -7,15 +7,9 @@
 }
 
 #wrapper:after {
-<<<<<<< Updated upstream
-  content: "";
-  display: block;
-  height: 200px; /* the footer's total height */
-=======
 content: "";
 display: block;
  /* the footer's total height */
->>>>>>> Stashed changes
 }
 
 
