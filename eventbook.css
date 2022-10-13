@@ -197,14 +197,17 @@ p{
 #wrapper {
   min-height: 100%;
   height: auto !important;
-  margin-bottom: -100px; /* the bottom margin is the negative value of the footer's total height */
 }
 
 #wrapper:after {
   content: "";
   display: block;
-  height: 100px; /* the footer's total height */
 }
+
+.midden:after {
+  margin-bottom: 220px;
+}
+
 .header {
 padding: 30px;
 text-align: center;
@@ -480,4 +483,53 @@ h2{
 }
 .midden{
   background: linear-gradient(90deg, rgb(0, 0, 0) 20%, #dba40c);
+  margin: -40px 0;
+  height: 420px;
 }
+
+.card-footer a {
+  color: #ad8848;
+  padding: 4px;
+  text-decoration: underline;
+  display: block;
+}
+
+.card-footer img{
+  width: 100%;
+  align-self: center;
+}
+
+.card-footer ul{
+  align-self: center;
+}
+
+.card-footer {
+  background-color: #6b6b6b;
+  border-color: #ad8848;
+  border-style: solid;
+  border-width: 3px;
+  height: 140px;
+  padding: 20px;
+  margin-top: 10px;
+  display: grid;
+}
+
+.column-footer{
+  float: left;
+  width: 30%;
+  padding: 20px;
+  margin: 0px 20px;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: linear-gradient( rgb(131, 131, 131)rgb(0, 0, 0)dba40c);
+  border-radius: 0px 0px 25px 25px;
+  color: rgb(255, 255, 255);
+  height: 200px;
+  }
+  
+  #footer-content {
+  height: 70px;
+  }
