@@ -1,8 +1,6 @@
 HEAD
 .text{
-position: fixed;
-left:282px;
-top: 20px;
+justify-self: center;
 }
 #text{
   position: relative;
@@ -25,16 +23,19 @@ form{
 }
 
 #wrapper {
-    min-height: 100%;
-    height: auto !important;
-    margin-bottom: -100px; /* the bottom margin is the negative value of the footer's total height */
+  min-height: 100%;
+  height: auto !important;
+  margin-bottom: -200px; /* the bottom margin is the negative value of the footer's total height */
+  background-color: #c3c3c3;
+  border-radius: 25px;
 }
-  
+
 #wrapper:after {
-  content: "";
-  display: block;
-  height: 100px; /* the footer's total height */
+content: "";
+display: block;
+height: 200px; /* the footer's total height */
 }
+
 
 .header {
   padding: 30px;
@@ -45,18 +46,18 @@ form{
   border-radius: 25px 25px 0px 0px;
 }
 
-.column_left {   
+.column_left{
   float: left;
-  width: 27%;
+  width: 33%;
   padding: 20px;
 }
 
-.column_right {
+.column_right{
   float: right;
   width: 67%;
   padding: 20px;
 }
-/*Totaal width van columns mag niet hoger dan 94%*/
+
 .row{
   background-color: #c3c3c3;
 }
@@ -96,8 +97,9 @@ form{
 
 .card_links {
   background-color: #7f7f7f;
+  border-color: #ad8848;
   border-style: solid;
-  border-color: #000000;
+  border-width: 3px;
   padding: 20px;
   margin-top: 20px;
   display: grid;
@@ -106,6 +108,9 @@ form{
 .card_logo {
   padding: 10px;
   background-color: #000000;
+  border-color: #ad8848;
+  border-style: solid;
+  border-width: 3px;
   margin-top: 10px;
   width: 100%;
   display: grid;
@@ -169,6 +174,16 @@ form{
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.partners_knop{
+  background-color: #000000;
+  color: #ad8848;
+  padding: 16px;
+  font-size: 17px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
 }
 
 .eventbook_knop{
