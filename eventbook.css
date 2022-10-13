@@ -4,7 +4,7 @@ body {
     height: 100vh;
     display: flex;
     font-family: "Roboto", sans-serif;
-    
+    width: 100%;
 }
 input{
     display: none;
@@ -482,9 +482,10 @@ h2{
   color: black;
 }
 .midden{
-  background: linear-gradient(90deg, rgb(0, 0, 0) 20%, #dba40c);
-  margin: -40px 0;
-  height: 420px;
+  background: linear-gradient(90deg, rgb(19, 2, 2) 20%, #dba40c);
+  margin-bottom: -60px;
+  margin-top: -60px;
+  height: 460px;
 }
 
 .card-footer a {
@@ -528,6 +529,7 @@ h2{
   border-radius: 0px 0px 25px 25px;
   color: rgb(255, 255, 255);
   height: 200px;
+  margin-top: 25px;
   }
   
   #footer-content {
