@@ -7,9 +7,15 @@
 }
 
 #wrapper:after {
+<<<<<<< Updated upstream
   content: "";
   display: block;
   height: 200px; /* the footer's total height */
+=======
+content: "";
+display: block;
+ /* the footer's total height */
+>>>>>>> Stashed changes
 }
 
 
@@ -327,7 +333,7 @@ justify-self: center;
 }
 #red{
   position: relative;
-  top: 100px;
+  top: 50px;
   left: 120px;
   outline-style: solid;
   outline-width: 5px;
@@ -364,8 +370,10 @@ justify-self: center;
   outline-width: 5px;
   outline-color: black;
 }
-/* #Partners-box{
+#Partners-box{
   background-color: rgb(255, 255, 255);
   width: 100%;
-  height: 500px
-} */
+}
+body {
+  background-color: white;
+}
