@@ -5,7 +5,7 @@ left:282px;
 top: 20px;
 }
 #text{
-  position: fixed;
+  position: relative;
   text-align: center;
 }
 
@@ -640,4 +640,80 @@ form{
   background-color: #f8f9fa
 } 
 
+
+.persoon1{
+  width: 255px;
+  height: 400px;
+  background-color: rgb(254, 116, 116);
+  position: relative;
+  left: 15px;
+  top:-341px;
+  border-radius: 20px;
+}
+.persoon2{
+  width: 255px;
+  height: 400px;
+  background-color: rgb(246, 146, 146);
+  position: relative;
+  left: 300px;
+  top:-738px;
+  border-radius: 20px;
+}
+.persoon3{
+  width: 255px;
+  height: 400px;
+  background-color: rgb(146, 37, 37);
+  position: relative;
+  left: 15px;
+  top:-700px;
+  border-radius: 20px;
+}
+.persoon4{
+  width: 255px;
+  height:400px;
+  background-color: rgb(146, 37, 37);
+  position: relative;
+  left: 300px;
+  top:-1099px;
+  border-radius: 20px;
+}
+.fazl{
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+}
+#textsport{
+  position: relative;
+  left: 20px;
+  top: 600px;
+}
+#tijd{
+  position: relative;
+left: 750px;
+top:-161px;
+}
+.prabol{
+  position: relative;
+  left: 38px;
+}
+.contacten{
+  position: fixed;
+  left: 70px;
+  font-size: 33px;
+  line-height: 45px;
+  top: 264px;
+}
+#contact2 h2 strong{
+  color: gold;
+
+}
+#contact2 {
+  position: relative;
+  left: 200px;
+
+}
+  
+#contact2 h2{
+  font-size: 33px;
+}
 
