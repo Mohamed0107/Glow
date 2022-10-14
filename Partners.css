@@ -9,25 +9,29 @@
 #wrapper:after {
 content: "";
 display: block;
-height: 200px; /* the footer's total height */
+ /* the footer's total height */
 }
 
 
 .header {
-padding: 30px;
-text-align: center;
-background-color: black;
-font-size: 35px;
-color: rgb(255, 255, 255);
-border-radius: 25px 25px 0px 0px;
+  padding: 30px;
+  text-align: center;
+  background-color: black;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  border-radius: 25px 25px 0px 0px;
 }
-
 .column_left {   
-float: left;
-width: 100%;
-padding: 20px;
+  float: left;
+  width: 33%;
+  padding: 20px;
 }
 
+.column_right {   
+  float: left;
+  width: 67%;
+  padding: 20px;
+}
 /*Totaal width van columns mag niet hoger dan 94%*/
 .row{
 background-color: #c3c3c3;
@@ -323,7 +327,7 @@ justify-self: center;
 }
 #red{
   position: relative;
-  top: 100px;
+  top: 27px;
   left: 120px;
   outline-style: solid;
   outline-width: 5px;
@@ -334,7 +338,7 @@ justify-self: center;
 #coca{
   height: 20%;
   width: 20%;
-  top: 60px;
+  top: 27px;
   position: relative;
   left: 250px;
   outline-style: solid;
@@ -343,7 +347,7 @@ justify-self: center;
 }
 #honey{
   position: relative;
-  top: 90px;
+  top: 20px;
   left: 380px;
   width: 25%;
   height: 25%;
@@ -360,8 +364,26 @@ justify-self: center;
   outline-width: 5px;
   outline-color: black;
 }
-/* #Partners-box{
+#Partners-box{
   background-color: rgb(255, 255, 255);
   width: 100%;
-  height: 500px
-} */
+}
+body {
+  background-color: white;
+}
+
+#Text {
+  font-size: x-large;
+  text-align: center;
+}
+#Nike {
+  margin-top: 80px;
+  margin-left: 120px;
+  outline-style: solid;
+  outline-width: 5px;
+  outline-color: black;
+}
+#Lego {
+  position: relative;
+  left: 650px;
+}
